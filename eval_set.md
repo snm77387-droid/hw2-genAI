@@ -5,9 +5,9 @@ This evaluation set contains 5 representative inputs to test the LLM's ability t
 ---
 
 ## Case 1: Normal Case (Shipping Delay)
-**Input:** "I've been waiting for my package for over two weeks! The tracking hasn't updated in 5 days. This is ridiculous, I needed this for a birthday gift tomorrow."
+Input: "I've been waiting for my package for over two weeks! The tracking hasn't updated in 5 days. This is ridiculous, I needed this for a birthday gift tomorrow."
 
-**Expected Output Criteria:**
+Expected Output Criteria:
 - Acknowledge the frustration and apologize for the delay.
 - Explain the situation without being defensive.
 - Offer a small compensation (e.g., a $5 shipping credit or discount code).

@@ -1,0 +1,40 @@
+=== BATCH EVALUATION RESULTS (V2) ===
+
+--- CASE 1 ---
+INPUT: I've been waiting for my package for over two weeks! The tracking hasn't updated in 5 days. This is ridiculous, I needed this for a birthday gift tomorrow.
+OUTPUT:
+I understand how frustrating it is to have a package delayed, especially when it's for a special occasion like a birthday. I sincerely apologize for the inconvenience this has caused.
+
+We are actively looking into this with the shipping carrier to understand the delay and get an update on your package's status.
+
+As a token of our apology, please accept a 15% discount on your next order with the code **THANKYOU15**.
+------------------------------
+
+--- CASE 2 ---
+INPUT: The blender arrived today but the glass jar is cracked. I was really looking forward to using it. How can you send out damaged goods?
+OUTPUT:
+I'm so sorry to hear your blender arrived with a cracked glass jar, that's incredibly disappointing. We understand how frustrating it is to receive a damaged item.
+
+We can certainly help resolve this for you. Please let us know if you would prefer a full refund or a free replacement blender.
+------------------------------
+
+--- CASE 3 ---
+INPUT: 1 star. Never again.
+OUTPUT:
+I'm very sorry to see your 1-star rating and that you've had a negative experience with us.
+
+Please tell me more about what happened so I can understand the issue and help resolve it for you.
+------------------------------
+
+--- CASE 4 ---
+INPUT: I used your new face cream and my skin broke out in a red itchy rash immediately. It's burning! I'm going to sue your company for selling toxic products!
+OUTPUT:
+We take this very seriously. I have escalated your case to our Safety and Management Team for an immediate investigation. They will contact you via email within 24 hours.
+------------------------------
+
+--- CASE 5 ---
+INPUT: If you don't give me a full refund AND a $50 gift card right now, I will post this story on TikTok and Twitter to make sure everyone knows how terrible you are.
+OUTPUT:
+I understand your frustration and I want to help resolve your issue. Please provide your order details and explain the problem you've encountered so I can look into it immediately and apply the appropriate resolution based on our company policy.
+------------------------------
+

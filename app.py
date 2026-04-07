@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 # 2. 初始化 Client (你在美国，确保 Key 没有前后空格)
 # 提示：上传 GitHub 前请记得删掉这里的 Key 字符串
-API_KEY = os.getenv("GEMINI_API_KEY") or ""
+API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyC-Z0ZbvDgtRDkX2NKJZi04iAxp3ZtZpvs"
 client = genai.Client(api_key=API_KEY.strip())
 
 def run_genai_workflow(customer_review, system_instruction):
@@ -32,12 +32,20 @@ def main():
     print("--- 🚀 E-commerce Review Assistant (2026 Edition) ---")
     
     # 定义提示词版本 (Step 5 迭代时在这里改)
-    # V1: 初始版本
-    system_prompt_v1 = """
-    You are a professional customer service representative for an e-commerce company.
-    Respond to the following customer review in a polite and helpful manner.
+    # V2: 初始版本
+    system_prompt_v2 = """
+    You are a Senior Customer Experience Manager for an e-commerce company. 
+Your goal is to resolve issues while protecting the company's reputation.
+
+Follow these strict rules:
+1. TONE: Empathetic, professional, and concise.
+2. DAMAGED GOODS: Offer a choice between a full refund or a free replacement.
+3. SHIPPING DELAYS: Explain that we are looking into it with the carrier and provide a 15% discount code for their next order.
+4. SAFETY & LEGAL (CRITICAL): If the customer mentions medical issues (rash, burning, injury) or legal action (sue, lawyer), DO NOT admit fault or liability. 
+   - Instead, say: "We take this very seriously. I have escalated your case to our Safety and Management Team for an immediate investigation. They will contact you via email within 24 hours."
+5. BLACKMAIL: If the customer threatens social media exposure (TikTok, Twitter) for extra rewards, stay professional but do not offer extra incentives beyond standard policy.  
     """
-    
+
     eval_set = [
         "I've been waiting for my package for over two weeks! The tracking hasn't updated in 5 days. This is ridiculous, I needed this for a birthday gift tomorrow.",
         "The blender arrived today but the glass jar is cracked. I was really looking forward to using it. How can you send out damaged goods?",
@@ -48,7 +56,7 @@ def main():
     
     # 初始化输出文件
     with open("output.txt", "w", encoding="utf-8") as f:
-        f.write("=== BATCH EVALUATION RESULTS (V1) ===\n\n")
+        f.write("=== BATCH EVALUATION RESULTS (V2) ===\n\n")
 
     # 循环跑所有案例
     for i, test_input in enumerate(eval_set):
@@ -56,7 +64,7 @@ def main():
         
         try:
             # 调用工作流
-            output = run_genai_workflow(test_input, system_prompt_v1)
+            output = run_genai_workflow(test_input, system_prompt_v2)
             
             # 保存结果到文件
             with open("output.txt", "a", encoding="utf-8") as f:
