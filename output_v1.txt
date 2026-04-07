@@ -1,0 +1,98 @@
+=== BATCH EVALUATION RESULTS (V1) ===
+
+--- CASE 1 ---
+INPUT: I've been waiting for my package for over two weeks! The tracking hasn't updated in 5 days. This is ridiculous, I needed this for a birthday gift tomorrow.
+OUTPUT:
+Oh no, I'm so sorry to hear about the significant delay with your package and the lack of tracking updates. Waiting over two weeks and seeing no tracking movement for five days is incredibly frustrating, especially when you're counting on it for a special occasion like a birthday gift tomorrow. That is absolutely not the experience we want for our customers.
+
+I understand how upsetting this must be, and I want to help you get to the bottom of this immediately.
+
+To allow me to look into this for you right away and explore all possible solutions, could you please provide your **order number**?
+
+Once I have that, I will:
+1.  **Investigate the tracking details** directly with the carrier.
+2.  **Determine the last known location** and current status.
+3.  **Explore options** to expedite the situation or find an alternative solution, especially given the urgent need for the birthday gift.
+
+Please provide your order number, and I'll prioritize getting this sorted out for you. We're committed to ensuring you receive your order.
+
+Sincerely,
+
+[Your Name/Company Name] Customer Service Team
+------------------------------
+
+--- CASE 2 ---
+INPUT: The blender arrived today but the glass jar is cracked. I was really looking forward to using it. How can you send out damaged goods?
+OUTPUT:
+Oh no! I'm so sorry to hear that your new blender arrived with a cracked glass jar. I completely understand how disappointing and frustrating it must be to receive a damaged item, especially when you were looking forward to using it.
+
+Please accept our sincerest apologies for this inconvenience. This is definitely not the experience we want for our customers, and it's certainly not up to our quality standards. We take great care in packaging our products, but unfortunately, damage can sometimes occur during transit.
+
+We want to make this right for you immediately. We'd be happy to send a brand new replacement blender to you right away at no additional charge.
+
+To help us process this for you as quickly as possible, could you please reply to this message with your **order number**? A photo of the damaged jar would also be helpful for our quality control team, but isn't required to get your replacement sent out.
+
+Our goal is always for you to receive your items in perfect condition and to be completely satisfied with your purchase. We appreciate your patience and understanding as we rectify this.
+------------------------------
+
+--- CASE 3 ---
+INPUT: 1 star. Never again.
+OUTPUT:
+We are truly sorry to see your 1-star review and read "Never again." This is certainly not the experience we want any of our customers to have, and we deeply regret that we fell short of your expectations.
+
+We would genuinely appreciate the opportunity to understand what went wrong and address your concerns. Please reach out to our customer support team directly at [Your Company Phone Number] or [Your Company Email Address], or through the 'Contact Us' section on our website.
+
+If you could provide us with more details about your experience, such as your order number or the specific issue you encountered, it would greatly assist us in investigating and finding a resolution.
+
+Your feedback is invaluable to us as we continuously strive to improve our products and services. We hope to have the chance to make things right and restore your confidence in [Your Company Name].
+------------------------------
+
+--- CASE 4 ---
+INPUT: I used your new face cream and my skin broke out in a red itchy rash immediately. It's burning! I'm going to sue your company for selling toxic products!
+OUTPUT:
+Dear Customer,
+
+I am so incredibly sorry to hear about the severe reaction you've experienced after using our new face cream. This is absolutely not the experience we want for any of our customers, and the burning, red, and itchy rash sounds incredibly distressing. I truly apologize for the discomfort and concern this has caused you.
+
+Our top priority right now is your well-being.
+
+1.  **Please discontinue use of the face cream immediately** if you haven't already.
+2.  **We strongly recommend seeking medical attention as soon as possible**, especially since you're experiencing burning and severe irritation. A healthcare professional can best advise on how to soothe your skin and prevent further issues.
+
+We take all feedback, especially concerning product safety, very seriously. To help us understand what happened and assist you further, could you please provide us with the following details?
+
+*   Your order number (or the date and location of purchase if bought in-store)
+*   The full name of the product
+*   The batch number (this is usually printed on the product packaging or the container itself)
+*   Any known allergies you may have
+
+Regardless of the cause, we want to ensure you are not out of pocket for a product that caused you such distress. We will, of course, issue a full refund for your purchase.
+
+Your experience will be immediately escalated to our Quality Assurance team for a thorough investigation. We are committed to understanding what might have caused this reaction.
+
+Please reply to this email with the requested information, or if you prefer to speak with someone directly, you can reach our customer service team at [Your Company Phone Number] during business hours.
+
+Once again, I sincerely apologize for this distressing experience and hope your skin finds relief very soon.
+
+Sincerely,
+
+[Your Name/Customer Service Team]
+[Your E-commerce Company Name]
+------------------------------
+
+--- CASE 5 ---
+INPUT: If you don't give me a full refund AND a $50 gift card right now, I will post this story on TikTok and Twitter to make sure everyone knows how terrible you are.
+OUTPUT:
+I understand you're feeling incredibly frustrated and upset, and I'm truly sorry to hear that your experience has led to such strong feelings. We absolutely want all our customers to be happy with their purchases and our service.
+
+To help me understand what happened and find the best possible solution for you, could you please provide more details about your order and the specific issue you've encountered? This would include:
+
+*   Your order number
+*   The item(s) in question
+*   A brief description of what went wrong
+
+Once I have this information, I can thoroughly investigate the situation and explore all available options to resolve this for you. Our goal is always to ensure our customers are satisfied, and I'm committed to working with you to find a fair and appropriate resolution.
+
+Please reply to this message directly, or feel free to contact our customer service team at [Your Company's Phone Number] or [Your Company's Email Address] and reference this interaction. We want to make this right.
+------------------------------
+
