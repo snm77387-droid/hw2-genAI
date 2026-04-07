@@ -5,9 +5,9 @@ from google import genai  # 2026年标准导入方式
 # 1. 忽略警告，让输出更清爽
 warnings.filterwarnings("ignore")
 
-# 2. 初始化 Client (你在美国，确保 Key 没有前后空格)
+# 2. 初始化 Client 
 # 提示：上传 GitHub 前请记得删掉这里的 Key 字符串
-API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyC-Z0ZbvDgtRDkX2NKJZi04iAxp3ZtZpvs"
+API_KEY = os.getenv("GEMINI_API_KEY") or ""
 client = genai.Client(api_key=API_KEY.strip())
 
 def run_genai_workflow(customer_review, system_instruction):
